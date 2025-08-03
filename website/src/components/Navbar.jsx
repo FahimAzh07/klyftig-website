@@ -68,10 +68,10 @@ const Navbar = () => {
                 <img src={cartIcon} alt="Cart" className="h-8 w-8 cursor-pointer filter-white" />
               </button>
 
-              <button className="hidden md:inline bg-white text-black font-bold px-4 py-2 rounded-xl shadow min-w-fit cursor-pointer hover:mainColor">
+              <button className="hidden md:inline bg-button-main text-black font-bold px-4 py-2 rounded-xl shadow min-w-fit cursor-pointer hover:mainColor">
                 Log In
               </button>
-              <button className="hidden md:inline bg-white text-black font-bold px-4 py-2 rounded-xl shadow min-w-fit cursor-pointer">
+              <button className="hidden md:inline bg-button-main text-black font-bold px-4 py-2 rounded-xl shadow min-w-fit cursor-pointer">
                 Sign Up
               </button>
             </div>
