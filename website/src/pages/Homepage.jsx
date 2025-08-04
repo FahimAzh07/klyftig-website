@@ -8,7 +8,6 @@ import FeaturedProducts from '../components/FeaturedProducts';
 const Homepage = () => {
   return (
     <>
-        <Navbar />
 
         <section className='bg-klyftig-dark text-white py-24 px-6 lg:px-12'>
             <div className='text-center max-w-3xl mx-auto mt-24'>
@@ -38,7 +37,6 @@ const Homepage = () => {
             Gaming & Lifestyle Crossover Section
         </section>
 
-        <Footer />
     </>
   )
 }
