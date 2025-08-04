@@ -61,6 +61,10 @@ const FeaturedProducts = () => {
       settings: { slidesToShow: 2 },
     },
     {
+      breakpoint: 480, // covers devices like 375px
+      settings: { slidesToShow: 1 },
+    },
+    {
       breakpoint: 640,
       settings: { slidesToShow: 1 },
     },
@@ -74,8 +78,10 @@ const FeaturedProducts = () => {
       <div className="relative max-w-[2560px] mx-auto px-4 lg:px-10 2xl:px-10">
         <Slider {...settings}>
           {productData.map((product) => (
-            <div key={product.id} className="px-2 md:px-4 xl:px-4 2xl:px-6 ml-4">
-              <ProductCard {...product} />
+            <div key={product.id} className="px-0 sm:px-2 md:px-4 xl:px-4 2xl:px-6 w-full">
+              <div className="max-w-xs mx-auto">
+                <ProductCard {...product} />
+              </div>
             </div>
           ))}
         </Slider>
