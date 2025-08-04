@@ -3,6 +3,7 @@ import './index.css'
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
 import Home from './pages/Homepage'
+import Login from './pages/Login'
 
 function App() {
 
